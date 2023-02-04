@@ -5,7 +5,7 @@ try
     Console.Write("Введите число: ");
     uint n = Convert.ToUInt32(Console.ReadLine());
 
-    Console.Write($"Кубы чисел от 1 до {n} включительно: "); 
+    Console.Write($"Кубы чисел от 1 до {n} включительно: ");
     for (int i = 1; i <= n; i++)
     {
         Console.Write($"{i * i * i} ");
